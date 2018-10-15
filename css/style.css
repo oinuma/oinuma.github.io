@@ -657,16 +657,16 @@ transform:rotate(360deg)
 }
 }
 body {
-	background: #cccccc;
+	background: #fff;
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0
 }
 .tmp_content {
-	overflow-x: hidden
+	overflow-x: hidden;
 }
 .page-row {
-	overflow: hidden
+	overflow: hidden;
 }
 .page-col {
 	margin: 0 auto;
@@ -687,10 +687,10 @@ body {
 	padding-top: 10%
 }
 .ankle {
-	background-color: whitesmoke
+	background-color: #fff;
 }
 .st-content, .st-content-inner {
-	background-color: whitesmoke
+	background-color: #fff;
 }
 .st-container.menu-open .st-content {
 	overflow: hidden
@@ -840,13 +840,13 @@ body {
 	padding-top: 60px
 }
 .csstransforms .st-menu nav[role="navigation"] {
-	padding-top: 0
+	padding-top: 0;
 }
 .st-menu li {
-	line-height: 2;
+	font-family: "GibsonLightRegular", sans-serif;
+	line-height: 4.0rem;
 	padding: 0;
 	text-align: right;
-	padding-bottom: 1.6rem;
 }
 
 .st-menu ui {
@@ -854,16 +854,12 @@ body {
 }
 
 .st-menu .nested li {
-	line-height: 1.6;
 	display:block;
 	padding: 0;
 	text-align: right;
 }
 .st-menu {
-	font-family: "kulturista-web", serif;
-	font-weight: 400;
-	font-size: 43px;
-	font-size: 2.7rem;
+	font-size: 1.8rem;
 	color: #757572;
 }
 .st-menu a {
@@ -873,17 +869,18 @@ body {
 	color: #fff
 }
 .st-menu .nested {
+	font-family: "GibsonRegular", serif;
 	margin-top: 0;
 	overflow: hidden;
-	padding-bottom: .5rem
-
+	padding-bottom: .8rem;
 }
+
 .st-menu .nested a {
-	font-size: 32px;
-	font-size: 2rem;
-	line-height: 1.75
+	font-size: 2.0rem;
+	line-height: 2.8rem;
 }
 .st-menu .social {
+	padding: .8rem 0;
 	display: inline-block;
 	right: 0;
 }
@@ -1030,9 +1027,9 @@ body {
 	width: 40px
 }
 .tmp_footer .address {
+	color: #999;
 	text-align: center;
-	font-size: 25px;
-	font-size: 1.6rem
+	font-size: 1.4rem
 }
 .tmp_footer .address .divider {
 	display: inline-block;
@@ -1084,18 +1081,17 @@ body {
 }
 
 .m_jumbotron .page-header {
-	font-family: proxima-nova, sans-serif;
-	font-weight: 600;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
 	color: #fff;
 	display: block;
-	font-size: 27px;
-	font-size: 2.7rem;
+	font-size: 1.6rem;
 	padding-bottom: .85rem;
 	text-transform: uppercase
 }
 .m_jumbotron .page-description {
-	font-family: kulturista-web, serif;
-	color: #999;
+	font-family: "kulturista-web", serif;
+	color: #ccc;
 	line-height: 1;
 	font-size: 1.7rem;
 }
@@ -1133,8 +1129,7 @@ body {
 	display: inline-block
 }
 .m_jumbotron.full .carousel .scroll-down {
-	font-family: "kulturista-web", serif;
-	font-weight: 600;
+	font-family: "proxima-nova", sans-serif;
 	text-transform: uppercase;
 	position: absolute;
 	width: 150px;
@@ -1144,7 +1139,7 @@ body {
 	left: 50%;
 	padding: 0 0 100px;
 	margin: 0 0 0 -75px;
-	font-size: 18px;
+	font-size: 1.6rem;
 	-webkit-backface-visibility: hidden;
 	color: #fff;
 }
@@ -1173,8 +1168,7 @@ body {
 }
 .m_jumbotron.full .carousel .client {
 	font-family: "kulturista-web", serif;
-	font-size: 28px;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
