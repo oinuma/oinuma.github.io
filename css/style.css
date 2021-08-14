@@ -113,7 +113,7 @@
 	display: inline-block;
 	-webkit-transition: .2s ease;
 	transition: .2s ease;
-	background: #f6364d;
+	background: #89CFF0;
 	border: none;
 	color: #fff;
 	font-family: "kulturista-web", serif;
@@ -182,11 +182,11 @@
 	color: #3b3c3b !important
 }
 .pill {
-	border: 1px solid #f6364d;
+	border: 1px solid #89CFF0;
 	color: #fff !important
 }
 .pill:hover {
-	background-color: #f6364d;
+	background-color: #89CFF0;
 	color: whitesmoke
 }
 .pill-tabs-enabled .pill-inactive {
@@ -264,7 +264,6 @@
 .social_main a {
 	display: inline-block;
 	vertical-align: middle;
-	height: 295px;
 	height: 18.5rem;
 	overflow: hidden;
 	width: 295px;
@@ -332,13 +331,13 @@ icon-vimeo:hover path, .icon-instagram:hover path {
 	padding-top: 32px;
 	padding-top: 2rem;
 	width: 83px;
-	width: 5.2rem
+	width: 5.2rem;
 }
 .underscore.centered:after, .m_topic-main .centered.topic-heading:after, .page-careers .reasons .centered.heading:after {
 	margin: auto
 }
 h2.underscore:after {
-	border-bottom-color: #f6364d
+	border-bottom-color: #89CFF0;
 }
 .link-arrows {
 	font-family: "kulturista-web", serif;
@@ -351,7 +350,7 @@ h2.underscore:after {
 	font-size: 1.8rem;
 	font-weight: 400;
 	padding-left: 6px;
-	padding-left: .4rem
+	padding-left: .4rem;
 }
 a.block-link {
 	display: block
@@ -371,8 +370,8 @@ a.block-link:hover {
 	padding: 0;
 }
 .list-heading {
-	color: #f6364d;
-	font-family: "kulturista-web", serif
+	color: #89CFF0;
+	font-family: "kulturista-web", serif;
 }
 .list-heading + ul, .list-heading + ol {
 	margin-top: 0
@@ -561,7 +560,7 @@ color:#fff
 	color: #fff
 }
 a {
-	color: #f6364d;
+	color: #89CFF0;
 	text-decoration: none
 }
 a:hover {
@@ -960,7 +959,7 @@ body {
 	display: block;
 	padding: 1em 1em 1em 1.2em;
 	outline: none;
-	color: #f6364d;
+	color: #89CFF0;
 	padding: 0;
 	-webkit-transition: background .3s, -webkit-box-shadow .3s;
 	transition: background .3s, box-shadow .3s
@@ -1119,8 +1118,11 @@ body {
 	font-size: 41px;
 	font-size: 2.6rem
 }
-.m_jumbotron.full .carousel .regular-page {
-	padding-top: 25vh
+.m_jumbotron.full .carousel .regular-page{
+		display: flex!important;
+		flex-direction: column;
+		justify-content: center;
+		align-content: space-around;
 }
 .m_jumbotron.full .carousel .regular-page * {
 	visibility: hidden
@@ -1246,9 +1248,10 @@ body[data-project="three"] .m_jumbotron.full .pager .animated #feature-timer-bac
 body[data-project="four"] .m_jumbotron.full .pager .animated #feature-timer-background * {
 	fill: #fff;
 }
-body[data-project="zero"] .m_jumbotron {
-	background-image: url(./img/zero.jpg)
+body[data-project="five"] .m_jumbotron.full .pager .animated #feature-timer-background * {
+	fill: #fff;
 }
+
 body[data-project="zero"] .pager .feature-timer {
 	stroke: #fff;
 	fill: #fff;
@@ -1262,9 +1265,7 @@ body[data-project="zero"] .m_jumbotron.full .carousel .btn-hollow {
 .item[data-project="zero"] .client {
 	color: #fff;
 }
-body[data-project="one"] .m_jumbotron {
-	background-image: url(./img/one.jpg);
-}
+
 body[data-project="one"] .pager .feature-timer {
 	stroke: #fff;
 }
@@ -1272,14 +1273,12 @@ body[data-project="one"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
 }
 .item[data-project="one"] p {
-	color: #666666;
+	color: #fff;
 }
 .item[data-project="one"] .client {
-	color: #333;
+	color: #fff;
 }
-body[data-project="two"] .m_jumbotron {
-	background-image: url(./img/two.jpg)
-}
+
 body[data-project="two"] .pager .feature-timer {
 	stroke: #68c223;
 }
@@ -1287,14 +1286,12 @@ body[data-project="two"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
 }
 .item[data-project="two"] p {
-	color: #333333;
+	color: #333;
 }
 .item[data-project="two"] .client {
 	color: #333;
 }
-body[data-project="three"] .m_jumbotron {
-	background-image: url(./img/three.jpg)
-}
+
 body[data-project="three"] .pager .feature-timer {
 	stroke: #68c223;
 }
@@ -1302,14 +1299,12 @@ body[data-project="three"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
 }
 .item[data-project="three"] p {
-	color: #ccc;
+	color: #fff;
 }
 .item[data-project="three"] .client {
-	color: #ccc;
+	color: #fff;
 }
-body[data-project="four"] .m_jumbotron {
-	background-image: url(./img/four.jpg);
-}
+
 body[data-project="four"] .pager .feature-timer {
 	stroke: #d1f787;
 }
@@ -1317,11 +1312,25 @@ body[data-project="four"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
 }
 .item[data-project="four"] p {
-	color: #ccc;
+	color: #fff;
 }
 .item[data-project="four"] .client {
-	color: #ccc;
+	color: #fff;
 }
+
+body[data-project="five"] .pager .feature-timer {
+	stroke: #d1f787;
+}
+body[data-project="five"] .m_jumbotron.full .carousel .btn-hollow {
+	color: #fff;
+}
+.item[data-project="five"] p {
+	color: #fff;
+}
+.item[data-project="five"] .client {
+	color: #fff;
+}
+
 #features {
 	width: 100%;
 	height: 100%;
@@ -1367,11 +1376,11 @@ body[data-project="four"] .m_jumbotron.full .carousel .btn-hollow {
 
 @media all and (min-width: 768px) {
 .btn-hollow {
-	color: #f6364d;
+	color: #89CFF0;
 	background: none
 }
 .btn-social {
-	color: #f6364d;
+	color: #89CFF0;
 	background: none
 }
 .btn-hollow:before {

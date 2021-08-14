@@ -16,18 +16,12 @@
     var Cookie_Session_Tracking = '__ss_tk';
 
     var submitForm = function(form) {
-
         if (form && form.submit && typeof form.submit === 'function') {
-
             form.submit();
-
         } else if (form && form.submit) {
-
             var tForm = document.createElement("form");
             tForm.submit.apply(form);
-
         }
-
     };
 
     var onRequest = function(event, form, submitEvent) {
