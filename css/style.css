@@ -1237,13 +1237,13 @@ body[data-project="zero"] .m_jumbotron.full .pager .animated #feature-timer-back
 	fill: #fff;
 }
 body[data-project="one"] .m_jumbotron.full .pager .animated #feature-timer-background * {
-	fill: #ccc;
+	fill: #fff;
 }
 body[data-project="two"] .m_jumbotron.full .pager .animated #feature-timer-background * {
-	fill: #ccc;
+	fill: #fff;
 }
 body[data-project="three"] .m_jumbotron.full .pager .animated #feature-timer-background * {
-	fill: #333;
+	fill: #fff;
 }
 body[data-project="four"] .m_jumbotron.full .pager .animated #feature-timer-background * {
 	fill: #fff;
@@ -1280,7 +1280,7 @@ body[data-project="one"] .m_jumbotron.full .carousel .btn-hollow {
 }
 
 body[data-project="two"] .pager .feature-timer {
-	stroke: #68c223;
+	stroke: #fff;
 }
 body[data-project="two"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
@@ -1293,7 +1293,7 @@ body[data-project="two"] .m_jumbotron.full .carousel .btn-hollow {
 }
 
 body[data-project="three"] .pager .feature-timer {
-	stroke: #68c223;
+	stroke: #fff;
 }
 body[data-project="three"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
@@ -1306,7 +1306,7 @@ body[data-project="three"] .m_jumbotron.full .carousel .btn-hollow {
 }
 
 body[data-project="four"] .pager .feature-timer {
-	stroke: #d1f787;
+	stroke: #fff;
 }
 body[data-project="four"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
@@ -1319,7 +1319,7 @@ body[data-project="four"] .m_jumbotron.full .carousel .btn-hollow {
 }
 
 body[data-project="five"] .pager .feature-timer {
-	stroke: #d1f787;
+	stroke: #fff;
 }
 body[data-project="five"] .m_jumbotron.full .carousel .btn-hollow {
 	color: #fff;
