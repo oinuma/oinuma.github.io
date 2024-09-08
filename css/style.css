@@ -87,11 +87,13 @@
   background: #000
 }
 .csstransforms .st-menu nav[role="navigation"], .csstransforms .featured-content, .csstransforms .m_jumbotron > .page-col:first-child {
-  -webkit-transform: translateY(-50%);
+  /*
+	-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+	*/
   position: relative;
-  top: 50%
+  top: 20%
 }
 .csstransforms .teleport-enabled .tube-stop-item:before, .csstransforms .teleport-enabled .tube-stop-item.active:after, .csstransforms .more-posts .module-heading {
   -webkit-transform: translateX(-50%);
@@ -99,6 +101,10 @@
   transform: translateX(-50%);
   position: relative;
   left: 50%
+}
+
+.post-teaser{
+	margin-bottom: 8%;
 }
 .csstransforms .m_tabs .figure-icon {
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -674,7 +680,6 @@ body {
 }
 .tmp_content .page-col {
   padding-top: 8%;
-  padding-bottom: 8%
 }
 .intro:first-child .page-col {
   padding-top: 10%
@@ -1036,7 +1041,7 @@ body {
 }
 .m_jumbotron {
   background-color: #3e3e3c;
-  height: 400px;
+  /* height: 400px; */
   overflow: hidden;
   padding-top: 125px;
   padding-bottom: 50px;
@@ -1453,7 +1458,7 @@ body[data-project="five"] .m_jumbotron.full .carousel .btn-hollow {
     padding-top: 100px
   }
   .m_jumbotron {
-    height: 600px
+   height: auto;
   }
   .m_jumbotron .positioning {
     padding: 6% 15%
